@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../favicon.ico">
+
+        <title></title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    
+        <!-- Custom styles for this template -->
+        {% load static %}
+        <link href="{% static 'DLSNPv1/style.css' %}" rel="stylesheet">
+    
+        <style>
+            a.navbar-brand {
+                font-size: large;
+             }
+        </style>
+    
+    </head>   
+    <body>
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" ><span style="color:Green; font-weight:bold; font-size:100%; font-family:Comic Sans MS; ">Diseases in Marine Species</span></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <!--
+            <li><a href="/Codeathon/about/">About</a></li>
+            <li><a href="/Codeathon/contact/">Contact</a></li>
+            <li><a href="/Codeathon/tutoral/">Help</a></li>  -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+        <br><br>
+        <h1>Database searching result:</h1>
+        <table class="table table-bordered" border="1" cellspacing="0" cellpadding="5">
+           <thead>
+              <tr>
+                  <th>species</th>
+                  <th>kingdom</th>
+                  <th>genus</th>
+                  <th>family</th>
+                  <th>moleculetype</th>
+                  <th>length</th>
+                  <th>nuccompleteness</th>
+                  <th>geolocation</th>
+                  <th>host</th>
+                  <th>biosample</th>
+                  <th>description</th>
+              
+              </tr>
+           </thead>
+           {% for item in query_results %}
+           <tbody>
+              <tr>
+                  <td>{{item.species}}</td>
+                  <td>{{item.kingdom}}</td>
+                  <td>{{item.genus}}</td>
+                  <td>{{item.family}}</td>
+                  <td>{{item.moleculetype}}</td>
+                  <td>{{item.length}}</td>
+                  <td>{{item.nuccompleteness}}</td>
+                  <td>{{item.geolocation}}</td>
+                  <td>{{item.host}}</td>
+                  <td>{{item.biosample}}</td>
+                  <td>{{item.description}}</td>
+              
+              </tr>
+           </tbody>
+           {% endfor %}
+        </table>
+        
+        
+    </div><!-- /.container -->
+
+
+    </body>
+</html>
+
