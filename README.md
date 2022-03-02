@@ -18,6 +18,12 @@
 
 ## Download Project Aquadocs
 
+https://github.com/USFOneHealthCodeathon2022/Topic4_TeamA.git
+
+## Launching the web server
+
+http://10.119.34.34:8004/Ocean/
+
 
 
 
