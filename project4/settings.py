@@ -92,9 +92,9 @@ DATABASES = {
    # }
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'db_GAv1',
-        'USER': 'djangouser',
-        'PASSWORD': '12345678',
+        'NAME': 'dbxxxx',
+        'USER': 'djangoxxxx',
+        'PASSWORD': '12xxxx',
         'HOST': 'localhost',
         'PORT': '3306',
     }

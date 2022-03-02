@@ -23,8 +23,5 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('GAv1/',include('GAv1.urls')),
-    path('DLAEv1/',include('DLAEv1.urls')),
-    path('DLSNPv1/',include('DLSNPv1.urls')),
     path('Ocean/',include('Ocean.urls'))
 ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
