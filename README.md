@@ -68,3 +68,8 @@ Your sequences will be examined for matches
 
 You will be able to download and save the results
 
+## Reference
+
+If you use project Aquadocs for your research, please cite:
+
+*Manuscript in preparation
