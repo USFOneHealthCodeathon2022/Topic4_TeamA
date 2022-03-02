@@ -62,11 +62,11 @@ CCTGGACAAAGACTGACGCTCAGGTGCGAAAGCGTGGGGAGCAAACAGG
 
 ### Perform Blastn
 
-Your sequences will be examined for matches
+Your sequences will be examined for matches against the database based on default parameters
 
 ### Download results:
 
-You will be able to download and save the results
+You will be able to download and save the results in your local computer
 
 ## Reference
 
