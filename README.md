@@ -4,7 +4,7 @@
 
 We created <b>AquaPathoPedia</b>, a sequence database for host-associated viral and bacterial pathogens in marine environments
 
-AquaPathoPedia contains
+AquaPathoPedia (`aquapathopedia_dataset.tsv`) contains metadata of
 - 2,681 viral genome records
 - 542 bacterial genome records
 - 226 full-length bacterial 16S rRNA gene records
@@ -14,6 +14,9 @@ AquaPathoPedia is useful for
 - Analysis of host distribution of specific marine diseases
 - Sequence analysis of pathogenic signatures in marine hosts
 
+Note:
+> - Currently, the AquaPathoPedia web server http://10.119.34.34:8004/Ocean/ can only be accessed from University of South Florida's in-campus network 
+> - Users can clone this github repository to run the web server locally
 
 ## Requirements
 1) bash
@@ -24,35 +27,21 @@ AquaPathoPedia is useful for
 
 ## Installation instructions
 
-## Download Project Aquadocs
-
-https://github.com/USFOneHealthCodeathon2022/Topic4_TeamA.git
-
-## Launching the web server
-
-http://10.119.34.34:8004/Ocean/
-
 ## Examples
 
-### Searching for information on a particular pathogen or host
+### Keyword search 
 
-1) Step 1: Launch the server http://10.119.34.34:8004/Ocean/
-2) Step 2: Enter keywords such as 'Virus' or 'Bacteria'
-3) Step 3: Once processing is completeted, click on 'download' to save the information
+- Launch the server http://10.119.34.34:8004/Ocean/
+- Enter keywords such as 'Virus' or 'Bacteria'
+- A results page will show up once the search is completeted, click on 'download' to save the information
 
-### Uploading your DNA sequence to search the database
-The sequence should be in fasta or multi-fasta format 
-
-### Perform Blastn
-
-Your sequences will be examined for matches against the database based on default parameters
-
-### Download results:
-
-You will be able to download and save the results in your local computer
+### BLAST search against AquaPathoPedia (coming soon)
+- Upload sequence(s) in fasta or multi-fasta format 
+- Sequence(s) will be searched against the database based on default BLAST parameters
+- Download and save results
 
 ## Reference
 
-If you use project Aquadocs for your research, please cite:
+If you use project AquaPathoPedia for your research, please cite:
 
 *Manuscript in preparation
