@@ -1,11 +1,19 @@
 # Topic4_TeamA (Aquadocs)
 
-# Title: Developing database and analysis tools for marine microbial diseases
+## AquaPathoPedia, a sequence database with analysis tools for marine microbial diseases
 
-## Purpose: 
+We created <b>AquaPathoPedia</b>, a sequence database for host-associated viral and bacterial pathogens in marine environments
 
-1) Create an information and sequence database for bacterial and viral diseases in marine organisms
-2) Provide a user-friendly GUI interface to gather information and scan for disease signatures based on user input
+AquaPathoPedia contains
+- 2,681 viral genome records
+- 542 bacterial genome records
+- 226 full-length bacterial 16S rRNA gene records
+
+AquaPathoPedia is useful for 
+- Bacterial/viral marine pathogen evolutionary/phylogenetic analysis
+- Analysis of host distribution of specific marine diseases
+- Sequence analysis of pathogenic signatures in marine hosts
+
 
 ## Requirements
 1) bash
