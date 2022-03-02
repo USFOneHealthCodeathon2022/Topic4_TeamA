@@ -12,4 +12,5 @@ urlpatterns = [
     #path('tutoral/', views.tutoral, name='tutoral'),
     path('email/', views.email, name='email'),
     path('data/', views.data, name='data'),
+    path('blast/', views.blast, name='blast'),
 ]

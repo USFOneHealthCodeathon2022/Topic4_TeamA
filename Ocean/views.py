@@ -28,7 +28,8 @@ def data(request):
     print(query_results)
     return render(request, 'Ocean/data.html', {'query_results': query_results})
 
-
+def blast(request):
+    return render(request, 'Ocean/blast.html')
 
 def email(request):
     # input email address
