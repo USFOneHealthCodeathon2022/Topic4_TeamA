@@ -20,7 +20,7 @@ AquaPathoPedia is useful for:
 
 Note:
 > - Currently, the AquaPathoPedia web server http://10.119.34.34:8004/Ocean/ can only be accessed from University of South Florida's in-campus network 
-> - Users can clone this github repository to run the web server locally
+> - Users can clone this github repository or download `website.zip` from this repository to run the web server locally
 
 ### Local installation requirements
 1) bash
