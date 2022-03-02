@@ -9,7 +9,7 @@ AquaPathoPedia (`aquapathopedia_dataset.tsv`) contains data from:
 - 542 bacterial genome records
 - 226 full-length bacterial 16S rRNA gene records
 
-Data collection and curation pipeline is described [here](https://github.com/USFOneHealthCodeathon2022/Topic4_TeamA/blob/main/DataCuration.MD)
+Data collection and curation pipeline is described [here](https://github.com/USFOneHealthCodeathon2022/Topic4_TeamA/blob/main/DataCuration.MD). All data (metadata, sequence data, and BLAST-formatted databaes) is available at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6323302.svg)](https://doi.org/10.5281/zenodo.6323302)
 
 ## Usage
 
