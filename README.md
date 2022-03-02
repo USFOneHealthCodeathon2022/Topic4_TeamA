@@ -10,7 +10,7 @@ Purpose:
 # Requirements
 1) bash
 2) conda 4.7.12
-3) python 3.6.9
+3) python 3.9.6
 4) django 2.2.5
 5) ncbi-blast-2.9.0+
 
